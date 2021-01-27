@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8003E1AE25BE46BA007FC84F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1AD25BE46BA007FC84F /* AppDelegate.swift */; };
+		8003E1B025BE46BA007FC84F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1AF25BE46BA007FC84F /* SceneDelegate.swift */; };
+		8003E1B525BE46BA007FC84F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003E1B325BE46BA007FC84F /* Main.storyboard */; };
+		8003E1B725BE46BC007FC84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8003E1B625BE46BC007FC84F /* Assets.xcassets */; };
+		8003E1BA25BE46BC007FC84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003E1B825BE46BC007FC84F /* LaunchScreen.storyboard */; };
+		8003E1C525BE49F0007FC84F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1C425BE49F0007FC84F /* SignUpViewController.swift */; };
+		8003E1C825BE49FD007FC84F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1C725BE49FD007FC84F /* LoginViewController.swift */; };
+		8003E1CB25BE4A0A007FC84F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */; };
+		8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */; };
+		8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1D625BE7BE0007FC84F /* ViewController.swift */; };
+		80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BBC57525BE81F600EA59AF /* Utilities.swift */; };
+		80E9F76725BF6AEC00331976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */; };
+		80E9F78E25BF90C500331976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9F78D25BF90C500331976 /* Constants.swift */; };
+		B612019B733CCED511592C50 /* Pods_Mind_over_Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE29E25F44E08D67F2BD835F /* Pods_Mind_over_Matter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652F75E7EDA9F70350ED32F3 /* Pods-Mind over Matter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mind over Matter.debug.xcconfig"; path = "Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter.debug.xcconfig"; sourceTree = "<group>"; };
+		8003E1AA25BE46BA007FC84F /* Mind over Matter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind over Matter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8003E1AD25BE46BA007FC84F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8003E1AF25BE46BA007FC84F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8003E1B425BE46BA007FC84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8003E1B625BE46BC007FC84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8003E1B925BE46BC007FC84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8003E1BB25BE46BC007FC84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8003E1C425BE49F0007FC84F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8003E1C725BE49FD007FC84F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrSignViewController.swift; sourceTree = "<group>"; };
+		8003E1D625BE7BE0007FC84F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80BBC57525BE81F600EA59AF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80E9F78D25BF90C500331976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9304B6C9DC2A7BFAE687D02E /* Pods-Mind over Matter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mind over Matter.release.xcconfig"; path = "Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter.release.xcconfig"; sourceTree = "<group>"; };
+		FE29E25F44E08D67F2BD835F /* Pods_Mind_over_Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mind_over_Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8003E1A725BE46BA007FC84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B612019B733CCED511592C50 /* Pods_Mind_over_Matter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2BB8188F5CA12CBD172FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE29E25F44E08D67F2BD835F /* Pods_Mind_over_Matter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668075A8F4E93D16C5879732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				652F75E7EDA9F70350ED32F3 /* Pods-Mind over Matter.debug.xcconfig */,
+				9304B6C9DC2A7BFAE687D02E /* Pods-Mind over Matter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8003E1A125BE46BA007FC84F = {
+			isa = PBXGroup;
+			children = (
+				80BBC57825BE81FD00EA59AF /* Helpers */,
+				8003E1AC25BE46BA007FC84F /* Mind over Matter */,
+				8003E1AB25BE46BA007FC84F /* Products */,
+				668075A8F4E93D16C5879732 /* Pods */,
+				3D2BB8188F5CA12CBD172FAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8003E1AB25BE46BA007FC84F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8003E1AA25BE46BA007FC84F /* Mind over Matter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8003E1AC25BE46BA007FC84F /* Mind over Matter */ = {
+			isa = PBXGroup;
+			children = (
+				8003E1C225BE49A5007FC84F /* View Controllers */,
+				8003E1AD25BE46BA007FC84F /* AppDelegate.swift */,
+				8003E1AF25BE46BA007FC84F /* SceneDelegate.swift */,
+				8003E1B325BE46BA007FC84F /* Main.storyboard */,
+				8003E1B625BE46BC007FC84F /* Assets.xcassets */,
+				8003E1B825BE46BC007FC84F /* LaunchScreen.storyboard */,
+				80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */,
+				8003E1BB25BE46BC007FC84F /* Info.plist */,
+			);
+			path = "Mind over Matter";
+			sourceTree = "<group>";
+		};
+		8003E1C225BE49A5007FC84F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8003E1C425BE49F0007FC84F /* SignUpViewController.swift */,
+				8003E1C725BE49FD007FC84F /* LoginViewController.swift */,
+				8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */,
+				8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */,
+				8003E1D625BE7BE0007FC84F /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		80BBC57825BE81FD00EA59AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				80BBC57525BE81F600EA59AF /* Utilities.swift */,
+				80E9F78D25BF90C500331976 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8003E1A925BE46BA007FC84F /* Mind over Matter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8003E1BE25BE46BC007FC84F /* Build configuration list for PBXNativeTarget "Mind over Matter" */;
+			buildPhases = (
+				4A4AE194460BFFEC5B9C11B3 /* [CP] Check Pods Manifest.lock */,
+				8003E1A625BE46BA007FC84F /* Sources */,
+				8003E1A725BE46BA007FC84F /* Frameworks */,
+				8003E1A825BE46BA007FC84F /* Resources */,
+				70B963AB16758CB6CC3992BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mind over Matter";
+			productName = "Mind over Matter";
+			productReference = 8003E1AA25BE46BA007FC84F /* Mind over Matter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8003E1A225BE46BA007FC84F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8003E1A925BE46BA007FC84F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 8003E1A525BE46BA007FC84F /* Build configuration list for PBXProject "Mind over Matter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8003E1A125BE46BA007FC84F;
+			productRefGroup = 8003E1AB25BE46BA007FC84F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8003E1A925BE46BA007FC84F /* Mind over Matter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8003E1A825BE46BA007FC84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8003E1BA25BE46BC007FC84F /* LaunchScreen.storyboard in Resources */,
+				80E9F76725BF6AEC00331976 /* GoogleService-Info.plist in Resources */,
+				8003E1B725BE46BC007FC84F /* Assets.xcassets in Resources */,
+				8003E1B525BE46BA007FC84F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A4AE194460BFFEC5B9C11B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mind over Matter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B963AB16758CB6CC3992BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8003E1A625BE46BA007FC84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8003E1AE25BE46BA007FC84F /* AppDelegate.swift in Sources */,
+				8003E1C525BE49F0007FC84F /* SignUpViewController.swift in Sources */,
+				8003E1C825BE49FD007FC84F /* LoginViewController.swift in Sources */,
+				8003E1B025BE46BA007FC84F /* SceneDelegate.swift in Sources */,
+				8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */,
+				8003E1CB25BE4A0A007FC84F /* HomeViewController.swift in Sources */,
+				80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */,
+				8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */,
+				80E9F78E25BF90C500331976 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8003E1B325BE46BA007FC84F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8003E1B425BE46BA007FC84F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8003E1B825BE46BC007FC84F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8003E1B925BE46BC007FC84F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8003E1BC25BE46BC007FC84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8003E1BD25BE46BC007FC84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8003E1BF25BE46BC007FC84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652F75E7EDA9F70350ED32F3 /* Pods-Mind over Matter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 325J2QNQB9;
+				INFOPLIST_FILE = "Mind over Matter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RichaelSaka.Mind-over-Matter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8003E1C025BE46BC007FC84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9304B6C9DC2A7BFAE687D02E /* Pods-Mind over Matter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 325J2QNQB9;
+				INFOPLIST_FILE = "Mind over Matter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RichaelSaka.Mind-over-Matter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8003E1A525BE46BA007FC84F /* Build configuration list for PBXProject "Mind over Matter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E1BC25BE46BC007FC84F /* Debug */,
+				8003E1BD25BE46BC007FC84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8003E1BE25BE46BC007FC84F /* Build configuration list for PBXNativeTarget "Mind over Matter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8003E1BF25BE46BC007FC84F /* Debug */,
+				8003E1C025BE46BC007FC84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8003E1A225BE46BA007FC84F /* Project object */;
+}
