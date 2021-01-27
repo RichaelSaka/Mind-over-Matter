@@ -110,7 +110,7 @@ class SignUpViewController: UIViewController {
                     }
                     
                     // Transition to the home screen
-                    self.transitionToHome()
+                    self.transitionToTabView()
                 }
                 
             }
@@ -126,12 +126,14 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 1
     }
     
-    func transitionToHome() {
+    func transitionToTabView() {
         
-        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+            let mainTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.mainTabController) as? MainTabController
         
-        view.window?.rootViewController = homeViewController
+        
+        view.window?.rootViewController = mainTabController
         view.window?.makeKeyAndVisible()
+        
         
     }
     

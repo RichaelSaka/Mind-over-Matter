@@ -14,9 +14,9 @@
 		8003E1BA25BE46BC007FC84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8003E1B825BE46BC007FC84F /* LaunchScreen.storyboard */; };
 		8003E1C525BE49F0007FC84F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1C425BE49F0007FC84F /* SignUpViewController.swift */; };
 		8003E1C825BE49FD007FC84F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1C725BE49FD007FC84F /* LoginViewController.swift */; };
-		8003E1CB25BE4A0A007FC84F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */; };
 		8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */; };
 		8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1D625BE7BE0007FC84F /* ViewController.swift */; };
+		8019205325C226560062A3D3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019205225C226560062A3D3 /* MainTabController.swift */; };
 		80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BBC57525BE81F600EA59AF /* Utilities.swift */; };
 		80E9F76725BF6AEC00331976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */; };
 		80E9F78E25BF90C500331976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9F78D25BF90C500331976 /* Constants.swift */; };
@@ -34,9 +34,9 @@
 		8003E1BB25BE46BC007FC84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8003E1C425BE49F0007FC84F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8003E1C725BE49FD007FC84F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrSignViewController.swift; sourceTree = "<group>"; };
 		8003E1D625BE7BE0007FC84F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8019205225C226560062A3D3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		80BBC57525BE81F600EA59AF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80E9F78D25BF90C500331976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -112,9 +112,9 @@
 			children = (
 				8003E1C425BE49F0007FC84F /* SignUpViewController.swift */,
 				8003E1C725BE49FD007FC84F /* LoginViewController.swift */,
-				8003E1CA25BE4A0A007FC84F /* HomeViewController.swift */,
 				8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */,
 				8003E1D625BE7BE0007FC84F /* ViewController.swift */,
+				8019205225C226560062A3D3 /* MainTabController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -245,10 +245,10 @@
 			files = (
 				8003E1AE25BE46BA007FC84F /* AppDelegate.swift in Sources */,
 				8003E1C525BE49F0007FC84F /* SignUpViewController.swift in Sources */,
+				8019205325C226560062A3D3 /* MainTabController.swift in Sources */,
 				8003E1C825BE49FD007FC84F /* LoginViewController.swift in Sources */,
 				8003E1B025BE46BA007FC84F /* SceneDelegate.swift in Sources */,
 				8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */,
-				8003E1CB25BE4A0A007FC84F /* HomeViewController.swift in Sources */,
 				80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */,
 				8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */,
 				80E9F78E25BF90C500331976 /* Constants.swift in Sources */,
