@@ -22,7 +22,7 @@ class LoginOrSignViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
     func setUpElements() {
         Utilities.styleFilledButton(signUpButton)
         Utilities.styleHollowButton(loginButton)

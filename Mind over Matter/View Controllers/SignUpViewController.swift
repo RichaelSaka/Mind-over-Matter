@@ -115,8 +115,6 @@ class SignUpViewController: UIViewController {
                 
             }
             
-            
-            
         }
     }
     
@@ -130,10 +128,8 @@ class SignUpViewController: UIViewController {
         
             let mainTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.mainTabController) as? MainTabController
         
-        
         view.window?.rootViewController = mainTabController
         view.window?.makeKeyAndVisible()
-        
         
     }
     

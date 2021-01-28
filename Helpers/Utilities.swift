@@ -11,6 +11,7 @@ import UIKit
 
 class Utilities {
     
+    
     static func styleTextField(_ textfield:UITextField) {
         
         // Create the bottom line
@@ -53,5 +54,4 @@ class Utilities {
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")
         return passwordTest.evaluate(with: password)
     }
-    
 }
