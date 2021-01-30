@@ -20,18 +20,18 @@
                                 <rect key="frame" x="68" y="162" width="271" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgU-vM-6He" userLabel="Begin">
-                                <rect key="frame" x="91" y="676" width="232" height="142"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="begin button"/>
-                                <connections>
-                                    <segue destination="irB-Dj-yjf" kind="show" id="iBg-iV-JiS"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onboarding text" translatesAutoresizingMaskIntoConstraints="NO" id="jc5-pz-pj1">
                                 <rect key="frame" x="31" y="414" width="353" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgU-vM-6He" userLabel="Begin">
+                                <rect key="frame" x="53" y="659" width="300" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Begin Icons"/>
+                                <connections>
+                                    <segue destination="irB-Dj-yjf" kind="show" id="iBg-iV-JiS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99648922679999996" green="0.98845011000000005" blue="0.949015677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994" y="138"/>
+            <point key="canvasLocation" x="992.75362318840587" y="137.94642857142856"/>
         </scene>
         <!--Login Or Sign View Controller-->
         <scene sceneID="9MC-lY-2Ar">
@@ -191,21 +191,80 @@
             </objects>
             <point key="canvasLocation" x="4352" y="1187"/>
         </scene>
-        <!--Home-->
+        <!--Home View Controller-->
         <scene sceneID="XBx-sP-XrA">
             <objects>
-                <viewController id="fcc-9t-uvA" sceneMemberID="viewController">
+                <viewController id="fcc-9t-uvA" customClass="HomeViewController" customModule="Mind_over_Matter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DUB-uE-M2u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bC-lB-M3r">
+                                <rect key="frame" x="35" y="599" width="165" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 15">
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="how was your day" translatesAutoresizingMaskIntoConstraints="NO" id="VBT-OM-BRQ">
+                                <rect key="frame" x="20" y="69" width="212" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1u2-WK-WhK" userLabel="pretty good">
+                                <rect key="frame" x="102" y="223" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 19"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCy-Wt-0Nc" userLabel="eh.">
+                                <rect key="frame" x="177" y="223" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 20"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCY-wK-fHm" userLabel="sad">
+                                <rect key="frame" x="253" y="223" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 21"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8y-nq-orX" userLabel="depressed">
+                                <rect key="frame" x="328" y="223" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 12"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmd-w5-IYr" userLabel="Happy">
+                                <rect key="frame" x="27" y="223" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 18"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHV-dW-5nl" userLabel="Session Button">
+                                <rect key="frame" x="14" y="305" width="400" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 28"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 31" translatesAutoresizingMaskIntoConstraints="NO" id="tGc-po-QTh">
+                                <rect key="frame" x="35" y="502" width="367" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FK1-bs-cgn" userLabel="Journal Button">
+                                <rect key="frame" x="217" y="599" width="167" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 13">
+                                    <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TjP-O5-Bpf"/>
-                        <color key="backgroundColor" red="0.99648922679999996" green="0.98845011000000005" blue="0.949015677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.98054653410000003" blue="0.95293837790000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="hhg-ok-UQl"/>
+                    <navigationItem key="navigationItem" id="NFw-0Y-YD4"/>
+                    <connections>
+                        <outlet property="journalButton" destination="FK1-bs-cgn" id="Mto-Wy-L95"/>
+                        <outlet property="meditateButton" destination="1bC-lB-M3r" id="MWU-VO-KhV"/>
+                        <outlet property="sessionButton" destination="eHV-dW-5nl" id="VLm-Pv-nO5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCo-ww-CpD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4343" y="510"/>
+            <point key="canvasLocation" x="5252.1739130434789" y="509.59821428571428"/>
         </scene>
         <!--Alert-->
         <scene sceneID="naL-F1-fog">
@@ -231,10 +290,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="SpA-qF-jjA" kind="relationship" relationship="viewControllers" id="eyF-Un-k5Z"/>
-                        <segue destination="fcc-9t-uvA" kind="relationship" relationship="viewControllers" id="Ovl-LN-wTg"/>
+                        <segue destination="IqF-xE-sb9" kind="relationship" relationship="viewControllers" id="Ovl-LN-wTg"/>
                         <segue destination="BGp-Jw-5hF" kind="relationship" relationship="viewControllers" id="V79-Ay-v5p"/>
                     </connections>
                 </tabBarController>
@@ -323,10 +383,38 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="Z9j-nG-BcT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="IqF-xE-sb9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="hhg-ok-UQl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vhu-RV-KOT">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fcc-9t-uvA" kind="relationship" relationship="rootViewController" id="JYh-r4-WRQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DE2-Nz-2we" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4342.0289855072469" y="509.59821428571428"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Begin Icons" width="188" height="111"/>
+        <image name="Group 12" width="74" height="74"/>
+        <image name="Group 13" width="171" height="176"/>
+        <image name="Group 15" width="173" height="176"/>
+        <image name="Group 18" width="74" height="74"/>
+        <image name="Group 19" width="74" height="74"/>
+        <image name="Group 20" width="74" height="74"/>
+        <image name="Group 21" width="74" height="74"/>
+        <image name="Group 28" width="349" height="179"/>
+        <image name="Group 31" width="361" height="38"/>
         <image name="Mind over Matter Icon" width="1250" height="1250"/>
-        <image name="begin button" width="596" height="358"/>
+        <image name="how was your day" width="456" height="360"/>
         <image name="onboarding text" width="1008" height="648"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

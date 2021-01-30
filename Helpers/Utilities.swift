@@ -37,6 +37,7 @@ class Utilities {
         button.tintColor = UIColor.white
     }
     
+    
     static func styleHollowButton(_ button:UIButton) {
         
         // Hollow rounded corner style
@@ -46,6 +47,14 @@ class Utilities {
         button.tintColor = UIColor.black
     }
     
+    static func styleHomeButtons(_ button: UIButton) {
+        button.layer.cornerRadius = 15.0
+        button.layer.shadowColor = UIColor.lightGray.cgColor
+        button.layer.shadowRadius = 4.0
+        button.layer.shadowOpacity = 0.7
+        button.layer.shadowOffset = CGSize(width: 3, height: 3)
+        
+    }
     
     // password security checker
     

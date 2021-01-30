@@ -68,7 +68,8 @@ class SignUpViewController: UIViewController {
         return nil
     }
     
-
+    
+    
     @IBAction func signUpTapped(_ sender: Any) {
         
         // Validate the fields
@@ -95,8 +96,8 @@ class SignUpViewController: UIViewController {
                     
                     // There was an error creating the user
                     self.showError("Error creating user")
-                }
-                else {
+                    
+                } else {
                     
                     // User was created successfully, now store the first name and last name
                     let db = Firestore.firestore()
@@ -127,6 +128,7 @@ class SignUpViewController: UIViewController {
     func transitionToTabView() {
         
             let mainTabController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.mainTabController) as? MainTabController
+        
         
         view.window?.rootViewController = mainTabController
         view.window?.makeKeyAndVisible()
