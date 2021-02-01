@@ -25,6 +25,8 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpElements()
+        emailTextField.text = "test@t.com"
+        passwordTextField.text = "Rsaka223."
 
         // Do any additional setup after loading the view.
     }
@@ -54,8 +56,10 @@ class LoginViewController: UIViewController {
                 self.errorLabel.alpha = 1
             }
             else {
+                 // if login successful, start on the home view controller
                 
-                let mainTabController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.mainTabController) as? MainTabController
+                let mainTabController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.mainTabController) as! MainTabController
+                mainTabController.selectedViewController = mainTabController.viewControllers?[1]
                 
                 self.view.window?.rootViewController = mainTabController
                 self.view.window?.makeKeyAndVisible()
@@ -63,4 +67,5 @@ class LoginViewController: UIViewController {
         }
     }
 }
+
 

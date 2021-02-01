@@ -16,11 +16,16 @@
 		8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */; };
 		8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003E1D625BE7BE0007FC84F /* ViewController.swift */; };
 		8019205325C226560062A3D3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019205225C226560062A3D3 /* MainTabController.swift */; };
-		80625BFF25C61B7300F97CB7 /* Assets.xcassets 17-53-13-310.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80625BFE25C61B7300F97CB7 /* Assets.xcassets 17-53-13-310.xcassets */; };
-		80A1CB2325C38406004A454A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1CB2225C38406004A454A /* HomeViewController.swift */; };
+		80625C0325C61F7900F97CB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80625C0225C61F7900F97CB7 /* HomeViewController.swift */; };
 		80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BBC57525BE81F600EA59AF /* Utilities.swift */; };
 		80E9F76725BF6AEC00331976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */; };
 		80E9F78E25BF90C500331976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9F78D25BF90C500331976 /* Constants.swift */; };
+		80FD6EEF25C644AC00CA26A8 /* Assets.xcassets 17-53-13-310.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FD6EEE25C644AC00CA26A8 /* Assets.xcassets 17-53-13-310.xcassets */; };
+		80FD6EF425C646F700CA26A8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FD6EF325C646F700CA26A8 /* Montserrat-Regular.ttf */; };
+		80FD6EF725C6470100CA26A8 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FD6EF625C6470100CA26A8 /* Montserrat-Light.ttf */; };
+		80FD6F0125C7A03500CA26A8 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD6F0025C7A03400CA26A8 /* EntryViewController.swift */; };
+		80FD6F1E25C8B17700CA26A8 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD6F1D25C8B17700CA26A8 /* NoteViewController.swift */; };
+		80FD6F2125C8B19A00CA26A8 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD6F2025C8B19A00CA26A8 /* JournalViewController.swift */; };
 		B612019B733CCED511592C50 /* Pods_Mind_over_Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE29E25F44E08D67F2BD835F /* Pods_Mind_over_Matter.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +42,16 @@
 		8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOrSignViewController.swift; sourceTree = "<group>"; };
 		8003E1D625BE7BE0007FC84F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8019205225C226560062A3D3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
-		80625BFE25C61B7300F97CB7 /* Assets.xcassets 17-53-13-310.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 17-53-13-310.xcassets"; sourceTree = "<group>"; };
-		80A1CB2225C38406004A454A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80625C0225C61F7900F97CB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		80BBC57525BE81F600EA59AF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80E9F78D25BF90C500331976 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80FD6EEE25C644AC00CA26A8 /* Assets.xcassets 17-53-13-310.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets 17-53-13-310.xcassets"; sourceTree = "<group>"; };
+		80FD6EF325C646F700CA26A8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		80FD6EF625C6470100CA26A8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		80FD6F0025C7A03400CA26A8 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		80FD6F1D25C8B17700CA26A8 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		80FD6F2025C8B19A00CA26A8 /* JournalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		9304B6C9DC2A7BFAE687D02E /* Pods-Mind over Matter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mind over Matter.release.xcconfig"; path = "Target Support Files/Pods-Mind over Matter/Pods-Mind over Matter.release.xcconfig"; sourceTree = "<group>"; };
 		FE29E25F44E08D67F2BD835F /* Pods_Mind_over_Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mind_over_Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,7 +112,7 @@
 				8003E1AF25BE46BA007FC84F /* SceneDelegate.swift */,
 				8003E1B325BE46BA007FC84F /* Main.storyboard */,
 				8003E1B825BE46BC007FC84F /* LaunchScreen.storyboard */,
-				80625BFE25C61B7300F97CB7 /* Assets.xcassets 17-53-13-310.xcassets */,
+				80FD6EEE25C644AC00CA26A8 /* Assets.xcassets 17-53-13-310.xcassets */,
 				80E9F76625BF6AEC00331976 /* GoogleService-Info.plist */,
 				8003E1BB25BE46BC007FC84F /* Info.plist */,
 			);
@@ -117,7 +127,10 @@
 				8003E1CD25BE4A31007FC84F /* LoginOrSignViewController.swift */,
 				8003E1D625BE7BE0007FC84F /* ViewController.swift */,
 				8019205225C226560062A3D3 /* MainTabController.swift */,
-				80A1CB2225C38406004A454A /* HomeViewController.swift */,
+				80625C0225C61F7900F97CB7 /* HomeViewController.swift */,
+				80FD6F2025C8B19A00CA26A8 /* JournalViewController.swift */,
+				80FD6F0025C7A03400CA26A8 /* EntryViewController.swift */,
+				80FD6F1D25C8B17700CA26A8 /* NoteViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -125,10 +138,20 @@
 		80BBC57825BE81FD00EA59AF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				80FD6EF125C646C400CA26A8 /* Fonts */,
 				80BBC57525BE81F600EA59AF /* Utilities.swift */,
 				80E9F78D25BF90C500331976 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		80FD6EF125C646C400CA26A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80FD6EF625C6470100CA26A8 /* Montserrat-Light.ttf */,
+				80FD6EF325C646F700CA26A8 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,10 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FD6EF725C6470100CA26A8 /* Montserrat-Light.ttf in Resources */,
 				8003E1BA25BE46BC007FC84F /* LaunchScreen.storyboard in Resources */,
 				80E9F76725BF6AEC00331976 /* GoogleService-Info.plist in Resources */,
 				8003E1B525BE46BA007FC84F /* Main.storyboard in Resources */,
-				80625BFF25C61B7300F97CB7 /* Assets.xcassets 17-53-13-310.xcassets in Resources */,
+				80FD6EF425C646F700CA26A8 /* Montserrat-Regular.ttf in Resources */,
+				80FD6EEF25C644AC00CA26A8 /* Assets.xcassets 17-53-13-310.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,11 +275,14 @@
 				8003E1C525BE49F0007FC84F /* SignUpViewController.swift in Sources */,
 				8019205325C226560062A3D3 /* MainTabController.swift in Sources */,
 				8003E1C825BE49FD007FC84F /* LoginViewController.swift in Sources */,
+				80FD6F1E25C8B17700CA26A8 /* NoteViewController.swift in Sources */,
+				80FD6F0125C7A03500CA26A8 /* EntryViewController.swift in Sources */,
 				8003E1B025BE46BA007FC84F /* SceneDelegate.swift in Sources */,
-				80A1CB2325C38406004A454A /* HomeViewController.swift in Sources */,
+				80625C0325C61F7900F97CB7 /* HomeViewController.swift in Sources */,
 				8003E1D725BE7BE1007FC84F /* ViewController.swift in Sources */,
 				80BBC57625BE81F600EA59AF /* Utilities.swift in Sources */,
 				8003E1CE25BE4A31007FC84F /* LoginOrSignViewController.swift in Sources */,
+				80FD6F2125C8B19A00CA26A8 /* JournalViewController.swift in Sources */,
 				80E9F78E25BF90C500331976 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
